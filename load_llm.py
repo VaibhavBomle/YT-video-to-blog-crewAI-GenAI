@@ -1,4 +1,3 @@
-from langchain.agents import AgentType,initialize_agent,load_tools
 from langchain_openai import ChatOpenAI
 from dotenv import load_dotenv
 import os
@@ -9,7 +8,7 @@ load_dotenv()
 def get_LLM():
   openai_api_key = os.getenv("OPENAI_API_KEY")
   llm = ChatOpenAI(
-    model="gpt-3.5-turbo",
+    model="gpt-4-0125-preview",
     temperature=0,
     openai_api_key= openai_api_key
    )
