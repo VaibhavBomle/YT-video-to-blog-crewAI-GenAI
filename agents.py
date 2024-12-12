@@ -1,8 +1,9 @@
 from crewai import Agent
 from tools import yt_tool
-
+from load_llm import get_LLM
 # Agent : Senior content researcher
 
+#llm = get_LLM()
 blog_researcher = Agent(
     role = "Blog Researcher from Youtube Videos",
     goal = "get the relevant video content for the topic {topic} from Yt Channel",
@@ -11,6 +12,7 @@ blog_researcher = Agent(
     backstory = (
         "Expert in understanding videos in AI Data Science, Machine Learning and GEN AI and providing suggestion"
     ),
+    llm =  get_LLM(),
     tools = [yt_tool],
     allow_delegation = True
 )
@@ -27,6 +29,7 @@ blog_writer = Agent(
         "engaging narratives that captivate and educate, bringing new"
         "discoveries to ligh in an accessible manner."
     ),
+    llm = get_LLM(),
     tools = [yt_tool],
     allow_delegation=True
 )
