@@ -1,2 +1,6 @@
 crewai
-crewai_tools
+crewai[tools]
+load_dotenv
+langchain
+langchain-community
+langchain-openai
