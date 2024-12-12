@@ -38,6 +38,4 @@ blog_writer=Agent(
     ),
     tools=[yt_tool],
     allow_delegation=False
-
-
 )
