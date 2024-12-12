@@ -15,5 +15,5 @@ crew = Crew(
 
 ## Start the task execution process with enhanced feedback
 
-result = crew.kickoff(input = {'topic':'AI VS ML VS DL vs Data Science'})
+result = crew.kickoff(inputs = {'topic':'AI VS ML VS DL vs Data Science'})
 print(result)
