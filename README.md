@@ -18,18 +18,19 @@ This project automates the process of generating blog content from YouTube video
  1.Clone the Repository
 
  2. Create a Virtual Environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+    ```bash
+       python -m venv venv
+       source venv/bin/activate  # On Windows: venv\Scripts\activate
 
- 3. Install Requirements
+ 4. Install Requirements
 pip install -r requirements.txt
 
- 4. Environment Variables
+ 5. Environment Variables
 Create a .env file in the root directory and add the following keys:
 env
 OPENAI_API_KEY=<Your OpenAI API Key>
 
- 5. Specify YouTube Channel
+ 6. Specify YouTube Channel
 Update tools.py with your YouTube channel handle:
 
 yt_tool = YoutubeChannelSearchTool(youtubeChannelName)
