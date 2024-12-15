@@ -33,9 +33,9 @@ env
 OPENAI_API_KEY=<Your OpenAI API Key>
 
  6. Specify YouTube Channel
-Update tools.py with your YouTube channel handle:
-   ```bash
-      yt_tool = YoutubeChannelSearchTool(youtubeChannelName)
+ Update tools.py with your YouTube channel handle:
+    ```bash
+    yt_tool = YoutubeChannelSearchTool(youtubeChannelName)
 
 
 ## Steps to Run
