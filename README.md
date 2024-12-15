@@ -16,8 +16,8 @@ This project automates the process of generating blog content from YouTube video
 ## Setup Instructions  
 
  1.Clone the Repository
-git clone <repository-url>
-cd <repository-directory>
+ git clone <repository-url>
+ cd <repository-directory>
 
  2. Create a Virtual Environment
 python -m venv venv
