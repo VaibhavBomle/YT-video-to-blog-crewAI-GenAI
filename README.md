@@ -41,12 +41,10 @@ OPENAI_API_KEY=<Your OpenAI API Key>
 ## Steps to Run
 Step 1: Define the Topic or Video Name
 In crew.py, specify the topic or video name to analyze:
-```bash
 result = crew.kickoff(inputs={'topic': 'Exploring AI in Data Science'})
 
 Step 2: Execute the Process
 Run the crew.py file to start the blog creation workflow:
-```bash
 python crew.py
 
 Step 3: Review the Output
