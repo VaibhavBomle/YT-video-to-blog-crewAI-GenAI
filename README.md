@@ -16,6 +16,8 @@ This project automates the process of generating blog content from YouTube video
 ## Setup Instructions  
 
  1.Clone the Repository
+   ```bash
+      git clone repository-url
 
  2. Create a Virtual Environment
     ```bash
@@ -23,7 +25,8 @@ This project automates the process of generating blog content from YouTube video
        source venv/bin/activate  # On Windows: venv\Scripts\activate
 
  4. Install Requirements
-pip install -r requirements.txt
+    ```bash
+       pip install -r requirements.txt
 
  5. Environment Variables
 Create a .env file in the root directory and add the following keys:
